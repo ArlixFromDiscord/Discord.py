@@ -48,7 +48,7 @@ async def kick(ctx, user: discord.Member):
 
 @bot.command(pass_context=True)
 async def ban(ctx, user: discord.Member):
-    await bot.say("Hai.. oh wait BAI".format(user.name))
+    await bot.say("Hai.. oh wait BAI {}".format(user.name))
     await bot.ban(user)
 
 @bot.command(pass_context=True)
