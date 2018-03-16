@@ -9,9 +9,9 @@ Client = commands.Bot(command_prefix=bot_prefix)
 
 @client.event
 async def on_ready():
-    await client.change_presence(game=discord.Game(name='with Arlix in his SLEEP'))
-    print ("hi dad")
-
+    await client.change_presence(game=discord.Game(name='with Arlix in his WAKE ME UP INSIDE'))
+    print ("GitHub")
+    print ("https://www.github.com/ArlixHomework/Client-Discord.py-Bot - Do not remove this line!")
 @client.event
 async def on_message(message):
     if message.content == "!help":
@@ -22,4 +22,4 @@ async def on_message(message):
         em = discord.Embed(title=':mailbox_with_mail: Check DMs', color=0x00ff00)
         await client.send_message(message.channel, embed=em)
  
-client.run("MjM5NDgxMTMyNzA4NjU5MjAw.DYzQmg.iBQAEtXrQfljfTx1ui37r12egHI")
+client.run("token")
