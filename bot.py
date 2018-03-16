@@ -1,28 +1,19 @@
-# Gir bot by Gir
+# ALX-Bot
 
 import discord
 from discord.ext import commands
 from discord.ext.commands import Bot
-import asyncio
-import chalk
-
-bot = commands.Bot(command_prefix='GD~')
+ 
+bot = commands.Bot(command_prefix='!')
 
 print (discord.__version__)
-
-@bot.event
-async def on_member_join(member):
-    server = member.server
-    fmt = 'Welcome {0.mention} to {1.name}!'
-    await bot.say('server, fmt.format(member, server')
-
+ 
 @bot.event
 async def on_ready():
-    await bot.change_presence(game=discord.Game(name='IZ and AGU 24/7/365 | GD~help'))
-    print ("Ready when you are xd")
-    print ("I am running on " + bot.user.name)
-    print ("With the ID: " + bot.user.id)
-
+    print ("GitHub") 
+    print ("Hi! My name is " + bot.user.name)
+    print ("My ID is " + bot.user.id)
+    print ("https://github.com/ArlixHomework/Discord.py/ - Do not remove this line!")
 @bot.command(pass_context=True)
 async def ping(ctx):
     await bot.say("pong motherfucker")
