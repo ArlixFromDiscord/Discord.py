@@ -2,7 +2,7 @@
 
 ## Usage rights
 
-This bot **__can__** be used and modified as long as it meets the following criteria;
+These bots **__can__** be used and modified as long as it meets the following criteria;
 
 * References Arlix in the footer.
 * No credit is removed.
@@ -11,4 +11,4 @@ This bot **__can__** be used and modified as long as it meets the following crit
 
 ## Anything else?
 
-Nope, hope you enjoy this bot!
+Nope, hope you enjoy these bots!
