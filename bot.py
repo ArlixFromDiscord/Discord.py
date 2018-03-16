@@ -14,9 +14,10 @@ async def on_ready():
     print ("Hi! My name is " + bot.user.name)
     print ("My ID is " + bot.user.id)
     print ("https://github.com/ArlixHomework/Discord.py/ - Do not remove this line!")
+    
 @bot.command(pass_context=True)
 async def ping(ctx):
-    await bot.say("pong motherfucker")
+    await bot.say("pong")
     print ("user has pinged")
 
 @bot.command(pass_context=True)
