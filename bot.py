@@ -1,4 +1,4 @@
-# ALX-Bot
+# ALX-Bot by someone on the internet
 
 import discord
 from discord.ext import commands
