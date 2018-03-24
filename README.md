@@ -1,4 +1,4 @@
-## Client-Discord.py-Bot
+## Discord.py
 
 ## Usage rights
 
