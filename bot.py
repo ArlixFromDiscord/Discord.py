@@ -1,10 +1,9 @@
-# ALX-Bot by someone on the internet
-
 import discord
 from discord.ext import commands
 from discord.ext.commands import Bot
+import asyncio
  
-bot = commands.Bot(command_prefix='!')
+bot = commands.Bot(command_prefix=';;')
 
 print (discord.__version__)
  
@@ -68,5 +67,10 @@ async def Hi(ctx):
 @bot.command(pass_context=True)
 async def invite(ctx):
     await bot.say("Use this URL to invite me :ribbon: https://discordapp.com/api/oauth2/authorize?client_id=406998322847416322&permissions=8&scope=bot")
-    
+
+@bot.command(pass_context=True)
+async def echo(ctx, message: discord.Message)
+    await bot.send_typing()
+    await bot.say(ctx.message.repeat)
+
 bot.run("token")
